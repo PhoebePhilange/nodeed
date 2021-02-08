@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/git-faulty'),
+      dir: require('path').join(__dirname, './coverage/gittyApp'),
       subdir: '.',
       reporters: [
         { type: 'html' },
